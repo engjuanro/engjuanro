@@ -1,105 +1,136 @@
-# Hi, I'm Juan Rodriguez
+# Juan Rodriguez
 
-**Mechatronic Engineer | Controls & Automation | Embedded Systems | AI/ML**
-
-Principal-level engineer with 12+ years building intelligent automation systems for FDA-regulated pharmaceutical, radiopharmaceutical, and biomedical industries. I design end-to-end solutions — from custom PCB hardware and embedded firmware to PLC control systems, SCADA platforms, and AI-driven diagnostics.
-
-Currently based in **Chicago, IL** | Open to senior/principal engineering roles
+### Principal Mechatronic Engineer | Engineering Leadership | Full-Stack Industrial Automation
 
 ---
 
-## What I Do
+Principal-level engineer with **12+ years** designing, building, and commissioning intelligent automation systems across **FDA-regulated pharmaceutical, radiopharmaceutical, and biomedical** industries. I lead end-to-end engineering — from custom PCB hardware and embedded firmware to PLC control architectures, full SCADA platforms, AI/ML-driven diagnostics, and GMP-compliant documentation.
 
-**Industrial Automation & Controls**
-PLC programming (Siemens TIA Portal, Allen-Bradley), SCADA development, HMI design, GMP/cGMP compliance, 21 CFR Part 11 validation, IQ/OQ/PQ protocols for radiopharmaceutical production systems
+I build what others spec out. I own the full lifecycle: **requirements → design → prototype → build → commission → validate → deliver.**
 
-**Embedded Systems & Hardware**
-ARM Cortex, STM32, ESP32, FPGA — firmware development in C/C++, multilayer PCB design (Altium, KiCad), EMI testing, thermal analysis, industrial-grade hardware validation
+**Chicago, IL** | Open to Principal Engineer & Engineering Manager roles
 
-**Software & AI/ML**
-Python, TensorFlow, OpenCV, Scikit-learn — real-time data acquisition, predictive diagnostics, biomedical signal processing (EEG/ECG/EMG/EOG), computer vision
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ing-juan-rodriguez/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:engjuanro@gmail.com)
 
-**Full-Stack SCADA Development**
-Built production-grade SCADA systems from scratch with MQTT/Zigbee communication, GMP-compliant user authentication, audit trails, recipe management, and integrated cybersecurity
+---
+
+## Engineering Domains
+
+### Industrial Automation & Controls
+PLC programming across **all IEC 61131-3 languages** (LD, FBD, ST/SCL, IL, SFC) on **Siemens TIA Portal** (V14–V18) and **Allen-Bradley** Studio 5000/RSLogix. SCADA/HMI development (WinCC, FactoryTalk, Ignition, custom Python SCADA). Hot cell automation for radioisotope production (**18F, 68Ga, 99mTc, 177Lu**) where minutes of downtime impact patient treatment. Full **GMP/cGMP** and **FDA 21 CFR Part 11** compliance with IQ/OQ/PQ validation.
+
+### Embedded Systems & Hardware Design
+Firmware development in **C/C++** for ARM Cortex (M3/M4), STM32, ESP32, FPGA, PIC, Nordic, DSP, MSP432, Raspberry Pi. Multilayer **PCB design** in **Altium Designer**, KiCad, Eagle, ORCAD with full EMI noise testing, thermal dissipation analysis, and industrial environment validation to meet international standards. Signal conditioning, biosignal acquisition (ADS1299, RHS2116), and DAQ system design.
+
+### Software & AI/ML
+**Python**, C++, TensorFlow, PyTorch, OpenCV, Scikit-learn for real-time data acquisition, **predictive diagnostics**, biomedical signal processing (EEG/ECG/EMG/EOG), computer vision, and brain-computer interfaces. Custom SCADA software development with MQTT/Zigbee communication stacks, GMP-compliant authentication, audit trails, and cybersecurity.
+
+### Full-Stack SCADA Development
+Built **production-grade SCADA systems from scratch** for Class A cleanroom environmental control (temperature, humidity, ventilation) using MQTT and Zigbee protocols with **custom patent-pending field controllers**. Integrated cybersecurity firewall, GMP-compliant login/traceability/audit trails, recipe/scheduling management. Delivered as stable final product meeting all GMP requirements.
+
+### Robotics & Motion Control
+**Staubli Robotics Level I & II Certified**. Designed and built a custom **6-DOF robotic arm** — 3D printed, computed forward/inverse kinematics, programmed ARM microcontroller firmware, and developed real-time 3D simulation interface in MATLAB and Python with live coordinate tracking. Industrial servo systems, VFDs (PowerFlex, Sinamics, Yaskawa, Omron, Mitsubishi).
+
+### Engineering Leadership & Project Management
+Led teams of **10+ engineers and technicians** across multi-site projects spanning North America and Europe. Full PM lifecycle ownership — Gantt planning, risk management, KPI/SLA tracking. **QC coordination** driving multiple revision cycles of electrical, mechanical, P&ID, pneumatic, and operational documentation through QC and FDA regulatory approval. Enabled technical independence of an entire regional operation by mastering undocumented proprietary systems and building local engineering capability.
 
 ---
 
 ## Featured Projects
 
-### GMP SCADA Platform for Class A Cleanrooms
-> Full SCADA system developed from scratch for environmental control (temperature, humidity, ventilation) of Class A classified laboratories. MQTT and Zigbee communication with custom patent-pending field controllers, integrated cybersecurity firewall, GMP-compliant login/traceability/audit trails, and recipe/scheduling engine.
-
-**Tech:** Python, MQTT, Zigbee, Cybersecurity, GMP Compliance
-
-### Custom Field Controllers (Patent Pending)
-> Industrial IoT controllers designed from concept to production — PCB design in Altium and KiCad, EMI noise testing, thermal dissipation analysis, and industrial environment validation meeting international standards.
-
-**Tech:** Altium Designer, KiCad, ARM, EMI Testing, Industrial IoT
-
-### Radiopharmaceutical Production Systems
-> End-to-end commissioning of hot cell systems for radioisotope production (18F, 68Ga, 99mTc, 177Lu). Electrical/pneumatic panel design (UL/NFPA 70), PLC programming (Siemens S7-1500), custom Python SCADA, and full GMP/FDA documentation.
-
-**Tech:** Siemens TIA Portal, Python, SCADA, GMP, FDA 21 CFR Part 11
-
-### 6-DOF Robotic Arm with Real-Time Simulation
-> Designed and 3D-printed a custom 6-DOF robot. Computed forward and inverse kinematics, programmed ARM microcontroller firmware, and built a real-time 3D simulation interface in MATLAB and Python with live coordinate tracking.
-
-**Tech:** ARM, MATLAB, Python, 3D Printing, Kinematics, Staubli Robotics (Level I & II Certified)
-
-### Biomedical Acquisition System (5 Prototype Iterations)
-> Led development of a polysomnography device with real-time DSP, multi-channel biosignal acquisition (EEG, ECG, EMG, EOG), double-redundancy communication, and AI-assisted sleep stage classification.
-
-**Tech:** ADS1299, RHS2116, ARM Cortex, Python, TensorFlow, AASM Compliance
-
-### Commissioning Tracking Web Application
-> Built a custom web-based dashboard for tracking procurement, inventory, parts classification, and commissioning progress across complex multi-system projects.
-
-**Tech:** HTML, CSS, JavaScript
+| Project | Description | Tech Stack |
+|---|---|---|
+| **GMP SCADA Platform** | Full SCADA system from scratch for Class A cleanroom environmental control with patent-pending field controllers, cybersecurity firewall, and GMP-compliant audit trails | Python, MQTT, Zigbee, GMP, Cybersecurity |
+| **Custom IoT Field Controllers** | Patent-pending industrial controllers — PCB design, EMI testing, thermal analysis, industrial validation to international standards | Altium, KiCad, ARM, EMI Testing, IoT |
+| **Radiopharmaceutical Hot Cell Systems** | End-to-end commissioning of hot cell production systems for multiple radioisotopes across North American facilities | Siemens TIA Portal, Python SCADA, GMP, FDA |
+| **Biomedical Acquisition System** | 5 prototype iterations of polysomnography device with real-time DSP, multi-channel biosignal acquisition, and AI sleep stage classification | ADS1299, ARM Cortex, TensorFlow, AASM |
+| **6-DOF Robotic Arm** | Custom 3D-printed robot with forward/inverse kinematics, ARM firmware, and real-time MATLAB/Python 3D simulation | ARM, MATLAB, Python, Kinematics |
+| **Commissioning Tracker** | Custom web dashboard for procurement, inventory, parts classification, and commissioning tracking across complex multi-system projects | HTML, CSS, JavaScript |
+| **AI Driver Safety System** | HW-SW system with STM32, RPi, accelerometers, cameras, IoT plus TensorFlow/OpenCV for driver behavior recognition | STM32, RPi, TensorFlow, OpenCV, IoT |
+| **Enterprise RPA** | Automated processes for financial exchanges and major enterprises | UiPath, Automation Anywhere, Blue Prism |
+| **SARS-CoV-2 Filter** | R&D of nanoparticle filtration technology for virus inactivation, validated against S. aureus and E. coli | CFD, Materials Science, Biotech |
+| **Racing Drone PCB** | Custom multilayer MSP432 board in Altium for mass production with 3D rendering and manufacturing documentation | Altium, MSP432, PCB Design |
 
 ---
 
-## Technical Skills
+## Technical Arsenal
 
-| Domain | Technologies |
-|---|---|
-| **PLC Platforms** | Siemens TIA Portal (V14-V18), Allen-Bradley Studio 5000, RSLogix, Schneider, Honeywell |
-| **IEC 61131-3** | Ladder Diagram, FBD, Structured Text (SCL), Instruction List, SFC |
-| **SCADA / HMI** | WinCC, FactoryTalk, Ignition, Custom Python SCADA |
-| **Embedded** | ARM Cortex (M3/M4), STM32, ESP32, FPGA, Raspberry Pi, PIC, Nordic, DSP |
-| **PCB Design** | Altium Designer, Eagle, KiCad, ORCAD, Proteus, LTspice |
-| **Languages** | Python, C, C++, Embedded C, MATLAB, SQL, JavaScript |
-| **AI / ML** | TensorFlow, PyTorch, OpenCV, Scikit-learn, Deep Learning, Computer Vision |
-| **Protocols** | Profinet, Profibus, Modbus, CANbus, MQTT, Zigbee, SPI, I2C, UART, OPC UA |
-| **CAD / Mech** | SolidWorks, Inventor, AutoCAD Electrical |
-| **Compliance** | FDA 21 CFR Part 11, GMP/cGMP, IQ/OQ/PQ, NERC-CIP, UL, NFPA 70 |
+```
+PLC & AUTOMATION         Siemens TIA Portal (V14-V18) | Allen-Bradley Studio 5000 | RSLogix 500/5000
+                         Schneider | Honeywell | Kinco | Delta | PX Developer | GX Works3
+                         IEC 61131-3: LD, FBD, ST/SCL, IL, SFC
+
+SCADA / HMI              WinCC | FactoryTalk View Studio | Ignition | Custom Python SCADA
+                         Connected Components Workbench | Panel View | TP700 Comfort
+
+EMBEDDED                 ARM Cortex (M3/M4) | STM32 | ESP32 | FPGA | Raspberry Pi
+                         PIC | Nordic | DSP | MSP432 | Texas Instruments
+
+PCB & EDA                Altium Designer | Eagle | KiCad | ORCAD | Proteus | LTspice | Multisim
+
+LANGUAGES                Python | C | C++ | Embedded C | Assembly | MATLAB | SQL | JavaScript | PHP
+
+AI / ML                  TensorFlow | PyTorch | OpenCV | Scikit-learn | NumPy | Pandas
+                         Deep Learning | Computer Vision | NLP | Predictive Analytics
+
+PROTOCOLS                Profinet | Profibus | Modbus TCP/RTU | CANbus | Ethernet/IP | BACnet
+                         MQTT | Zigbee | OPC UA | SPI | I2C | CAN | UART | Bluetooth 5.0 | LVDS
+
+MECHANICAL CAD           SolidWorks (Mechanical & Electrical) | Inventor | AutoCAD Electrical
+
+DRIVES & MOTION          PowerFlex (40/520/750) | Sinamics | Yaskawa | Omron | Mitsubishi
+                         Servo Systems | Staubli Robotics (Level I & II)
+
+COMPLIANCE               FDA 21 CFR Part 11 | GMP/cGMP | IQ/OQ/PQ | NERC-CIP
+                         UL | NFPA 70 | IEE | EU Standards | FMEA | HAZOP | AASM
+
+CLOUD & DEVOPS           GCP | AWS | Azure | Docker | Linux | Git | CI/CD
+
+RPA                      UiPath | Automation Anywhere | Blue Prism
+```
 
 ---
 
 ## Certifications
 
-- Staubli Robotics: Level I & Level II
-- Siemens PLC Programming in TIA Portal
-- Rockwell Automation: Studio 5000 & RSLogix 500
-- Google Cloud Big Data & Machine Learning
-- Automation Anywhere Certified Advanced RPA Professional
-- UiPath RPA Developer Advanced
-- Docker Fundamentals | Git & GitHub | LLM Fundamentals
+- **Staubli Robotics** — Level I & Level II
+- **Siemens** — PLC Programming in TIA Portal
+- **Rockwell Automation** — Studio 5000 & RSLogix 500
+- **Google Cloud** — Big Data and Machine Learning Fundamentals
+- **Automation Anywhere** — Certified Advanced RPA Professional
+- **UiPath** — RPA Developer Advanced Certificate
+- **Blue Prism** — Foundation Training
+- **IBM** — Data Analysis with Python
+- **Docker** | **Git & GitHub** | **LLM Fundamentals** | **Gen AI Enterprise Strategy** | **n8n Automation**
 
 ---
 
 ## Education
 
-**MBA** — European Business University of Barcelona (2024)
-**B.S. Mechatronic Engineering** — Universidad Militar Nueva Granada, Colombia (2018)
+| Degree | Institution | Year |
+|---|---|---|
+| **Master of Business Administration (MBA)** | European Business University of Barcelona, Spain | 2024 |
+| **B.S. Mechatronic Engineering** | Universidad Militar Nueva Granada, Colombia | 2018 |
 
 ---
 
-## Let's Connect
+## Career Trajectory
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ing-juan-rodriguez/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:engjuanro@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/engjuanro)
+```
+2023 – Present    Control Systems Engineer → De Facto Principal Engineer    Comecer Group (ATS Group)
+2022 – 2023       Controls Engineer                                        Clyde's Donuts (GridStor Energy)
+2022              Operations Maintenance Specialist                        Rana Meal Solutions LLC
+2019 – 2022       Independent Engineering Consultant & Entrepreneur        Meraki | BOXMARK | Amaris
+2013 – 2019       Embedded Systems Engineer (Progressive Roles)            Centuritech S.A.S
+```
 
 ---
 
-*"Engineering is not just about building systems — it's about solving problems that matter."*
+## Languages
+
+**English:** Professional working proficiency | **Spanish:** Native | **French:** C1 (University) | **Italian:** Technical proficiency
+
+---
+
+*"Only those who attempt the absurd will achieve the impossible."* — M.C. Escher (Albert Einstein)
