@@ -34,13 +34,13 @@ Firmware development in **C/C++** for **ARM Cortex-M0/M3/M4** (STM32, Nordic nRF
 **OpenHAB**, **Home Assistant**, **Zigbee2MQTT**, **Node-RED**, **ESPHome** — local-first architectures for privacy-respecting smart home deployments.
 
 ### Software & AI/ML
-**Python**, C++, TensorFlow, PyTorch, OpenCV, Scikit-learn, NumPy, Pandas for real-time data acquisition, **predictive diagnostics**, biomedical signal processing (EEG/ECG/EMG/EOG), computer vision, and brain-computer interfaces. Custom SCADA software development with MQTT/Zigbee communication stacks, GMP-compliant authentication, audit trails, and cybersecurity.
+**Python**, **React/TypeScript**, **Node.js**, C++, TensorFlow, PyTorch, OpenCV, Scikit-learn, NumPy, Pandas for real-time data acquisition, **predictive diagnostics**, biomedical signal processing (EEG/ECG/EMG/EOG), computer vision, and brain-computer interfaces. Full-stack web development (**React/TypeScript + Node.js/PostgreSQL + Grafana**). Custom SCADA/MES software development with MQTT/Zigbee communication stacks, GMP-compliant authentication, audit trails, and cybersecurity.
 
-### Full-Stack SCADA Development
-Built **production-grade SCADA systems from scratch** for Class A cleanroom environmental control (temperature, humidity, ventilation) using MQTT and Zigbee protocols with **custom patent-pending field controllers**. Integrated cybersecurity firewall, GMP-compliant login/traceability/audit trails, recipe/scheduling management. Delivered as stable final product meeting all GMP requirements.
+### Full-Stack SCADA & MES Development — Koolred Soluciones (Co-Founder)
+Co-founded **Koolred Soluciones** and built **production-grade SCADA + MES systems from scratch** for Class A cleanroom environmental control (temperature, humidity, ventilation) using MQTT (ISO/IEC 20922) and Zigbee 3.0 (IEEE 802.15.4) protocols with **custom patent-pending field controllers** (Arduino R4 WiFi PLC + EFR32MG21 coordinator). Integrated cybersecurity firewall, GMP-compliant login/traceability/audit trails, multi-day hourly recipe programmer, **Telegram bot (BPM_alert) with predefined user profiles** for role-based push notifications (maintenance, QA, management, operations), and **6-layer fault tolerance** (<15s PLC failure detection). Full-stack **MES application** with React/TypeScript frontend, Node.js/PostgreSQL backend, and **Grafana KPI dashboards** for production tracking and electronic batch records. $0 licenses vs. $2K–$20K/yr traditional SCADA. Deployed as commercial product.
 
 ### Robotics & Motion Control
-**Staubli Robotics Level I & II Certified** (CS9). Integration across Staubli TX2-60, Mitsubishi, FANUC, ABB, Universal Robots, and Kuka (including 7-axis LBR iiwa). Designed and built a custom **6-DOF robotic arm** — 3D printed, computed forward/inverse kinematics, programmed ARM microcontroller firmware, custom servo-driver PCB, and developed real-time 3D simulation interface in MATLAB and Python with live coordinate tracking. Industrial servo systems, VFDs (PowerFlex, Sinamics, Yaskawa, Omron, Mitsubishi).
+**Staubli Robotics Level I & II Certified** (CS9). Integration across Staubli TX2-60, Mitsubishi, FANUC, ABB, Universal Robots, and Kuka (including 7-axis LBR iiwa). Designed and built a custom **6-DOF robotic arm** — 3D printed, computed forward/inverse kinematics, programmed ARM microcontroller firmware, custom servo-driver PCB, and developed real-time 3D simulation interface in MATLAB and Python with live coordinate tracking. **Factory I/O digital twin simulations** of automated production lines coupled with real Siemens PLC programs — validated control logic, robot cell coordination, and conveyor sequencing before physical commissioning, reducing deployment time by 60%. Industrial servo systems, VFDs (PowerFlex, Sinamics, Yaskawa, Omron, Mitsubishi).
 
 ### Engineering Leadership & Project Management
 Led teams of **10+ engineers and technicians** across multi-site projects spanning North America and Europe. Full PM lifecycle ownership — **PMI/PMBOK + PRINCE2** governance, **Agile** (Scrum, Kanban, SAFe, LeSS), **Lean Six Sigma DMAIC + Kaizen**, **OKRs**, Gantt planning, risk management, KPI/SLA tracking. **QC coordination** driving multiple revision cycles of electrical, mechanical, P&ID, pneumatic, and operational documentation through QC and FDA regulatory approval. Enabled technical independence of an entire regional operation by mastering undocumented proprietary systems and building local engineering capability.
@@ -51,8 +51,9 @@ Led teams of **10+ engineers and technicians** across multi-site projects spanni
 
 | Project | Description | Tech Stack |
 |---|---|---|
-| **GMP SCADA Platform** | Full SCADA system from scratch for Class A cleanroom environmental control with patent-pending field controllers, cybersecurity firewall, and GMP-compliant audit trails | Python, MQTT, Zigbee, GMP, Cybersecurity |
+| **Koolred SCADA + MES Platform (Co-Founder)** | Full SCADA + MES system from scratch for Class A cleanroom control with patent-pending field controllers, Telegram bot (BPM_alert) with role-based notifications, 6-layer fault tolerance, Grafana KPI dashboards, and electronic batch records. $0 licenses vs. $2K–$20K/yr traditional SCADA | Python, React/TypeScript, Node.js, PostgreSQL, MQTT, Zigbee 3.0, Grafana, Telegram Bot |
 | **Custom IoT Field Controllers** | Patent-pending industrial controllers — PCB design, EMI testing, thermal analysis, industrial validation to international standards | Altium, KiCad, ARM, EMI Testing, IoT |
+| **Factory I/O Digital Twin** | High-fidelity digital twin simulations of automated production lines coupled with real Siemens PLC programs — validated control logic, robot cell coordination, and conveyor sequencing before physical commissioning, reducing deployment time by 60% | Factory I/O, Siemens TIA Portal, PROFINET |
 | **Radiopharmaceutical Hot Cell Systems** | End-to-end commissioning of hot cell production systems for multiple radioisotopes across North American facilities | Siemens TIA Portal, Python SCADA, GMP, FDA |
 | **Biomedical Acquisition System** | 5 prototype iterations of polysomnography device with real-time DSP, multi-channel biosignal acquisition, and AI sleep stage classification | ADS1299, ARM Cortex, TensorFlow, AASM |
 | **6-DOF Robotic Arm** | Custom 3D-printed robot with forward/inverse kinematics, ARM firmware, and real-time MATLAB/Python 3D simulation | ARM, MATLAB, Python, Kinematics |
@@ -72,7 +73,8 @@ PLC & AUTOMATION         Siemens TIA Portal (V14-V18) | Allen-Bradley Studio 500
                          PX Developer | GX Works3
                          IEC 61131-3: LD, FBD, ST/SCL, IL, SFC, AWL, FUP, KOP
 
-SCADA / HMI              WinCC | FactoryTalk View Studio | Ignition | Custom Python SCADA
+SCADA / HMI / MES        WinCC | FactoryTalk View Studio | Ignition | Custom Python SCADA
+                         Koolred SCADA (Co-Founded) | Telegram Bot Alerts | Grafana
                          SIMATIC | Connected Components Workbench | Panel View | TP700 Comfort
 
 BMS / BUILDING AUTO.     Schneider AS-P (EcoStruxure) | Honeywell JACE 8000 (Niagara)
@@ -91,14 +93,18 @@ PCB & EDA                Altium Designer | Eagle | KiCad | ORCAD
                          Deliverables: Schematic | PCB | BOM | Gerber | STEP
 
 SIMULATION               Proteus | LTspice | Multisim | MATLAB | Simulink | LabVIEW | SPICE
+                         Factory I/O (Digital Twin) | Siemens PLCSIM
 
 EMBEDDED IDE / TOOLCHAIN Segger Embedded Studio | Keil MDK | Simplicity Studio (Silabs)
                          Arduino IDE | Visual Studio | PlatformIO | GCC/ARM | JTAG/SWD
 
 LANGUAGES                Python | C | C++ | Embedded C | C# | Java | Kotlin (Android Studio)
-                         Assembly | MATLAB | SQL | JavaScript | TypeScript
+                         Assembly | MATLAB | SQL | JavaScript | TypeScript | React | Node.js
                          HTML5 | CSS | PHP
                          Ladder (LAD) | AWL | FUP | KOP | Structured Text
+
+FULL-STACK / MES         React | TypeScript | Node.js | PostgreSQL | Grafana | Flask | Django
+                         MQTT Integration | Electronic Batch Records | KPI Dashboards
 
 AI / ML                  TensorFlow | PyTorch | OpenCV | Scikit-learn | NumPy | Pandas
                          Deep Learning | Computer Vision | NLP | Predictive Analytics | LLMs
@@ -159,9 +165,10 @@ RPA                      UiPath | Automation Anywhere | Blue Prism
 
 ```
 2023 – Present    Control Systems Engineer → De Facto Principal Engineer    Comecer Group (ATS Group)
+2024 – Present    Co-Founder — SCADA/MES/IoT Product                       Koolred Soluciones SAS
 2022 – 2023       Controls Engineer                                        Clyde's Donuts (GridStor Energy)
 2022              Operations Maintenance Specialist                        Rana Meal Solutions LLC
-2019 – 2022       Independent Engineering Consultant & Entrepreneur        Meraki | BOXMARK | Amaris
+2019 – 2022       Independent Engineering Consultant & Entrepreneur        Meraki | Automotive AI | Amaris
 2013 – 2019       Embedded Systems Engineer (Progressive Roles)            Centuritech S.A.S
 ```
 
